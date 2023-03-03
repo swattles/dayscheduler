@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      
+      <!-- Timeblocks go here -->
+  
+      <!-- 9 AM -->
+      <form class="row hour-row">
+        <div class="hour event-time col-1">9 AM</div>
+        <textarea
+        class="event-text col-10" placeholder="Description"></textarea>
+        <button type="submit" class="saveBtn event-save col-1" id="0">Save</button>
+      </form>
+
+      <!-- 10 AM -->
+      <form class="row hour-row" >
+        <div class="hour event-time col-1">10 AM</div>
+        <textarea class="event-text col-10" placeholder="Description"></textarea>
+        <button type="submit" class="saveBtn event-save col-1" id="1">Save</button>
+      </form>
+
+      <!-- 11 AM -->
+      <form class="row hour-row" >
+        <div class="hour event-time col-1">11 AM</div>
+        <textarea class="event-text col-10" placeholder="Description"></textarea>
+        <button type="submit" class="saveBtn event-save col-1" id="2">Save</button type="submit">
+      </form>
+
+      <!-- 12 PM -->
+      <form class="row hour-row" >
+        <div class="hour event-time col-1">12 PM</div>
+        <textarea class="event-text col-10" placeholder="Description"></textarea>
+        <button type="submit" class="saveBtn event-save col-1" id="3">Save</button type="submit">
+      </form>
+
+      <!-- 1 PM -->
+      <form class="row hour-row" >
+        <div class="hour event-time col-1">1 PM</div>
+        <textarea class="event-text col-10" placeholder="Description"></textarea>
+        <button type="submit" class="saveBtn event-save col-1" id="4">Save</button type="submit">
+      </form>
+
+      <!-- 2 PM -->
+      <form class="row hour-row" >
+        <div class="hour event-time col-1">2 PM</div>
+        <textarea class="event-text col-10" placeholder="Description"></textarea>
+        <button type="submit" class="saveBtn event-save col-1" id="5">Save</button type="submit">
+      </form>
+
+      <!-- 3 PM -->
+      <form class="row hour-row" >
+        <div class="hour event-time col-1">3 PM</div>
+        <textarea class="event-text col-10" placeholder="Description"></textarea>
+        <button type="submit" class="saveBtn event-save col-1" id="6">Save</button type="submit">
+      </form>
+
+      <!-- 4 PM -->
+      <form class="row hour-row" >
+        <div class="hour event-time col-1">4 PM</div>
+        <textarea class="event-text col-10" placeholder="Description"></textarea>
+        <button type="submit" class="saveBtn event-save col-1" id="7">Save</button type="submit">
+      </form>
+
+      <!-- 5 PM -->
+      <form class="row hour-row" >
+        <div class="hour event-time col-1">5 PM</div>
+        <textarea class="event-text col-10" placeholder="Description"></textarea>
+        <button type="submit" class="saveBtn event-save col-1" id="8">Save</button type="submit">
+      </form>
+
+      <!-- 6 PM -->
+      <form class="row hour-row" >
+        <div class="hour event-time col-1">6 PM</div>
+        <textarea class="event-text col-10" placeholder="Description"></textarea>
+        <button type="submit" class="saveBtn event-save col-1" id="9">Save</button type="submit">
+      </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
