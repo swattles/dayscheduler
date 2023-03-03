@@ -4,7 +4,7 @@
 
 Here is my attempt at the module 5 challenge. 
 
-You can see a mockup of what the final version will look like here (dayscheduler/Assets/05-third-party-apis-homework-demo.gif) 
+You can see a mockup of what the final version will look like here (./dayscheduler/Assets/05-third-party-apis-homework-demo.gif) 
 
 Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
